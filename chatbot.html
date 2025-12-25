@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<title> Companio </title>
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<style>
+  html, body {
+    margin: 0;
+    height: 100%;
+    background: linear-gradient(120deg, #DFC5FE, #C8E6C9 );
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  /* THE BOX */
+  .chatbox {
+    width: 60vw;        /* 60% of screen width */
+    height: 70vh;       /* box height */
+    border: 4px solid #111827;
+    border-radius: 16px;
+    background: white;
+    box-shadow: 0 20px 40px rgba(0,0,0,0.2);
+    overflow: hidden;
+  }
+
+  iframe {
+    width: 100%;
+    height: 100%;
+    border: none;
+  }
+</style>
+</head>
+
+<body>
+
+  <div class="chatbox">
+    <iframe
+  src="https://cdn.botpress.cloud/webchat/v3.5/shareable.html?configUrl=https://files.bpcontent.cloud/2025/12/25/08/20251225080148-AZ4OA2XX.json"
+  allow="microphone; clipboard-write"
+  loading="lazy">
+</iframe>
+
+  </div>
+
+</body>
+</html>
